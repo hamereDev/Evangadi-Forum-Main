@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "build": "cd Evangadi-Fourm && npm install && npm run build",
+  "start": "nodemon app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",

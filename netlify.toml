@@ -1,3 +1,4 @@
 [build]
-  command = "npm run build"
-  publish = "Evangadi-Fourm/dist"
+  base = "Evangadi-Fourm" # This tells Netlify to change into this directory first
+  command = "npm install && npm run build" # Now this runs inside Evangadi-Fourm
+  publish = "dist" # This is relative to the 'base' directory (Evangadi-Fourm/dist)

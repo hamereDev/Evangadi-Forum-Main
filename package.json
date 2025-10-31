@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-  "build": "cd Evangadi-Fourm && npm install && npm run build",
+  "build":  "build": "echo 'Netlify will handle the build process via netlify.toml base setting'" ,
   "start": "nodemon app.js",
   "test": "echo \"Error: no test specified\" && exit 1"
 },
